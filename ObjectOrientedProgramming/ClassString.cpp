@@ -22,7 +22,7 @@ int String::Len(){
 
 String String::ConCat (const String& b){
        String c;
-       strcpy(c.a, a); //predavame pyrviq element na masiva
+       strcpy(c.a, a); //give the first element of the array
        strcpy(c.a+c.Len(), b.a);
        return c;
 }
@@ -63,7 +63,7 @@ int main()
     cout<<a.Len();
     
     
-    system("pause");
+    //system("pause");
     return 0;
 }
 

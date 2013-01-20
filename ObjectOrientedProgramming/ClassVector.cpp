@@ -85,7 +85,7 @@ bool Vector::operator==(const Vector& AB)
 
 bool Vector::operator!= (const Vector& AB)
 {
-    //compare them by value, not their pointers
+    //compare them by value, not by their pointers
 	return !(*this == AB); 
 }
 

@@ -1,15 +1,3 @@
-/*class s Point
-1/ konstruktori
-2/ get-ri (accessori) + modifikatori
-
-class Sphere
-1/ golqmata 4etvorka
-2/ Set(Point p, double r) - zadava dadena sfera
-3/ funkciq za obema 
-4/ funkciq, koqto proverqva dali dadena to4ka e vytre v sferata
-
-
-*/
 
 #include <iostream>
 using namespace std;
@@ -17,11 +5,11 @@ using namespace std;
 class Point{
 public:
 	Point(int = 0, int = 0, int = 0); 
-	Point(const Point&);	//конструктор за присвояване
-	double getX() const;	//аксесори
+	Point(const Point&);	
+	double getX() const;	//getters
 	double getY() const;
 	double getZ() const;
-	void SetX(double);		//модификатори
+	void SetX(double);		//setters
 	void SetY(double);
 	void SetZ(double);
 private:
