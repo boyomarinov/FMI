@@ -1,0 +1,8 @@
+7
+1 Chocolate 10
+2 Champagne 20
+3 Strawberries 5
+4 Juice 2
+5 Cream 4
+6 Water 1
+7 Milk 2

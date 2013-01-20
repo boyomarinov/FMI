@@ -1,0 +1,5 @@
+Porsche		911		310000
+Ford		Mustang		130000
+Zaporojec	2		100000
+Ford		Focus		4300
+Trabant		601		200
